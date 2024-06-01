@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: cyan;
+    
+}
+h1{
+    text-align: center;
+    height:fit-content;
+    margin-top:30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom:10px;
+    color: rgb(185, 33, 33);
+}
+.card{
+    width:90%;
+    max-width: 400px;
+    background: linear-gradient(220deg,#865386cc,rgb(195, 53, 223));
+    /* color:#12feba; */
+    margin: 30px auto 0;
+
+    border-radius: 20px;
+    padding:40px 35px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border:0;
+    outline:0;
+    background:#ffffff;
+    padding:8px 16px;
+    flex: 1;
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(46, 44, 44, 0.758);
+}
+.search button {
+    border:0;
+    outline:0;
+    background:#ffffff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 40%;
+}
+.weather-icon{
+    width: 200px;
+    margin-top: 15px;
+    padding:1px;
+
+}
+.weather h1{
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #fff9f9;
+}
+.search button:hover{
+background-color: rgba(255, 255, 255, 0.84);
+}
+.search input:hover{
+background-color: rgba(255, 255, 255, 0.84) ;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display:flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 50px;
+    margin-right: 10px;
+}
+.humidity,.wind{
+    font-size: 15px;
+    color: white;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: center;
+    margin-top: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(165, 15, 15);
+    font-size: large;
+    display: none;
+}
